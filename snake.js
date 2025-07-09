@@ -17,7 +17,7 @@ function loop() {
     requestAnimationFrame(loop);
 
     // biar ular nggak terlalu cepat
-    if (++count < 14) return;
+    if (++count < 15) return;
     count = 0;
 
     // gerakkan ular
