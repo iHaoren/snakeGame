@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Game Ular</title>
+  </head>
+
+  <body>
+    <!-- tampilan game -->
+    <div class="score">
+      <p>Score: <span id="scoreDisplay">0</span></p>
+    </div>
+    <canvas id="game" width="450" height="450"></canvas>
+
+    <!-- ini kontrol -->
+    <div class="kontrol">
+      <div class="atas">
+        <button id="up">⬆️</button>
+      </div>
+      <div class="kiri-kanan">
+        <button id="left">⬅️</button>
+        <button id="right">➡️</button>
+      </div>
+      <div class="bawah">
+        <button id="down">⬇️</button>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="snake.js"></script>
+  </body>
+</html>

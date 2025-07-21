@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    font-family: "Bitcount Prop Double", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    width: 400px;
+    height: 100vh;
+    background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+}
+
+
+.score{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    
+}
+
+canvas {
+    background-color: #111;
+    display: block;
+    margin: 30px auto;
+    box-shadow: 4px 4px 18px rgba(0,0,0,0.5);
+    width: 300px;
+    height: 300px;
+}
+
+.kontrol {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.atas {
+    margin: 14px;
+}
+
+.kiri-kanan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bawah {
+    margin: 14px;
+}
+
+button {
+    background-color: darkseagreen;
+    padding: 8px 14px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+
+button:active {
+    background-color: gainsboro;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
